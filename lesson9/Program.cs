@@ -41,14 +41,6 @@ namespace lesson9
                 Console.WriteLine("Количество книг:" + library.Lst.Count);
 
 
-                Console.WriteLine("-------------------:");
-                library.Sort(Book book);
-                foreach (var item in library.Lst)
-               {
-                Console.WriteLine(item);
-                }
-            //Console.WriteLine(library.Lst.Sort);
-
             
         }
             
